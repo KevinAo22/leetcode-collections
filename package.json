@@ -1,0 +1,61 @@
+{
+  "name": "leetcode-collections",
+  "version": "1.0.0",
+  "description": "LeetCode's Collections - keep going every day",
+  "keywords": [
+    "TypeScript",
+    "Swift",
+    "Rust",
+    "LeetCode"
+  ],
+  "author": "KevinAo22",
+  "license": "MIT",
+  "private": "true",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KevinAo22/leetcode-collections.git"
+  },
+  "homepage": "https://github.com/KevinAo22/leetcode-collectionst#readme",
+  "bugs": {
+    "url": "https://github.com/KevinAo22/leetcode-collections/issues"
+  },
+  "engines": {
+    "node": ">=12"
+  },
+  "scripts": {
+    "prepare": "husky install",
+    "commit": "cz",
+    "lint": "eslint ./ --config .eslintrc.yml --ignore-path .eslintignore --ext .ts",
+    "prettier": "prettier --write ./ --config .prettierrc.json --ignore-path .prettierignore"
+  },
+  "lint-staged": {
+    "*.{js,ts}": [
+      "eslint --fix",
+      "prettier --write"
+    ],
+    "*.{json,md}": [
+      "prettier --write"
+    ]
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^13.1.0",
+    "@commitlint/config-conventional": "^13.1.0",
+    "@types/node": "^16.9.6",
+    "@typescript-eslint/eslint-plugin": "^4.31.2",
+    "@typescript-eslint/parser": "^4.31.2",
+    "commitizen": "^4.2.4",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.24.2",
+    "husky": "^7.0.2",
+    "lint-staged": "^11.1.2",
+    "prettier": "^2.4.1",
+    "typescript": "^4.4.3"
+  }
+}
