@@ -1,6 +1,6 @@
 <h1 align="center">
   <a href="https://leetcode.com">
-    <img src="https://github.com/KevinAo22/leetcode-collections/raw/master/assets/leetcode-logo.png" alt="LeetCode Logo" height="100">
+    <img src="https://github.com/KevinAo22/leetcode-collections/raw/main/assets/leetcode-logo.png" alt="LeetCode Logo" height="100">
   </a>
 </h1>
 
