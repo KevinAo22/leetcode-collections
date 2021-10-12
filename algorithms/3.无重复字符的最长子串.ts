@@ -13,7 +13,7 @@ function lengthOfLongestSubstring(str: string): number {
   const record: { [key: string]: number } = {};
   let maxLength = 0;
   let start = 0;
-  for (let end = 0; end < str.length; end += 1) {
+  for (let end = 0; end < str.length && maxLength < str.length - start + 1; end += 1) {
     const value = str[end];
     if (record[value]) {
       start = Math.max(start, record[value]);
