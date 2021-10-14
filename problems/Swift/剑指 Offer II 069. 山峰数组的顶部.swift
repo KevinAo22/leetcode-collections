@@ -1,6 +1,6 @@
 /**
- * 剑指 Offer II 069. 山峰数组的顶部 Easy
- * 时间复杂度：O(log(n)), 空间复杂度：O(1)
+ * 剑指 Offer II 069.山峰数组的顶部 [Easy]
+ * Time Complexity: O(log(n)), Space Complexity: O(1)
  * https://leetcode-cn.com/problems/B1IidL/
  */
 

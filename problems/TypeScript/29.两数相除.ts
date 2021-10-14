@@ -1,6 +1,6 @@
 /**
- * 29.两数相除 Medium
- * 时间复杂度：O(log(n)), 空间复杂度：O(1)
+ * 29.两数相除 [Medium]
+ * Time Complexity: O(log(n)), Space Complexity: O(1)
  * https://leetcode-cn.com/problems/divide-two-integers/
  */
 

@@ -1,6 +1,6 @@
 /**
- * 2.两数相加 Medium
- * 时间复杂度：O(n), 空间复杂度：O(1)
+ * 2.两数相加 [Medium]
+ * Time Complexity: O(n), Space Complexity: O(1)
  * https://leetcode-cn.com/problems/add-two-numbers/
  */
 

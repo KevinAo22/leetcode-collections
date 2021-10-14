@@ -1,6 +1,6 @@
 /**
- * 3.无重复字符的最长子串 Medium
- * 时间复杂度：O(n), 空间复杂度：O(n)
+ * 3.无重复字符的最长子串 [Medium]
+ * Time Complexity: O(n), Space Complexity: O(n)
  * https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/
  */
 

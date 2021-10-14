@@ -1,6 +1,6 @@
 /**
- * 4.寻找两个正序数组的中位数 Hard
- * 时间复杂度：O(log(m+n)), 空间复杂度：O(1)
+ * 4.寻找两个正序数组的中位数 [Hard]
+ * Time Complexity: O(log(m+n)), Space Complexity: O(1)
  * https://leetcode-cn.com/problems/median-of-two-sorted-arrays/
  */
 

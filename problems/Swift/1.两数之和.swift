@@ -1,6 +1,6 @@
 /**
- * 1.两数之和 Easy
- * 时间复杂度：O(n), 空间复杂度：O(n)
+ * 1.两数之和 [Easy]
+ * Time Complexity: O(n), Space Complexity: O(n)
  * https://leetcode-cn.com/problems/two-sum/
  */
 
