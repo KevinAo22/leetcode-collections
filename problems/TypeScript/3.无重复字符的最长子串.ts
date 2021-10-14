@@ -1,10 +1,9 @@
-/*
- * @lc app=leetcode.cn id=3 lang=typescript
- *
- * [3] 无重复字符的最长子串
+/**
+ * 3.无重复字符的最长子串 Medium
+ * 时间复杂度：O(n), 空间复杂度：O(n)
+ * https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/
  */
 
-// @lc code=start
 function lengthOfLongestSubstring(str: string): number {
   if (str.length <= 1) {
     return str.length;
@@ -25,4 +24,3 @@ function lengthOfLongestSubstring(str: string): number {
 
   return maxLength;
 }
-// @lc code=end

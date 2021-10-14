@@ -1,21 +1,22 @@
-/*
- * @lc app=leetcode.cn id=2 lang=typescript
- *
- * [2] 两数相加
+/**
+ * 2.两数相加 Medium
+ * 时间复杂度：O(n), 空间复杂度：O(1)
+ * https://leetcode-cn.com/problems/add-two-numbers/
  */
 
-// @lc code=start
 /**
  * Definition for singly-linked list.
- * class ListNode {
- *     val: number
- *     next: ListNode | null
- *     constructor(val?: number, next?: ListNode | null) {
- *         this.val = (val===undefined ? 0 : val)
- *         this.next = (next===undefined ? null : next)
- *     }
- * }
  */
+class ListNode {
+  val: number;
+
+  next: ListNode | null;
+
+  constructor(val?: number, next?: ListNode | null) {
+    this.val = val === undefined ? 0 : val;
+    this.next = next === undefined ? null : next;
+  }
+}
 
 function addTwoNumbers(l1: ListNode | null, l2: ListNode | null): ListNode | null {
   let list1 = l1;
@@ -45,4 +46,3 @@ function addTwoNumbers(l1: ListNode | null, l2: ListNode | null): ListNode | nul
   }
   return result;
 }
-// @lc code=end

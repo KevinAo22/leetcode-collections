@@ -1,10 +1,9 @@
-/*
- * @lc app=leetcode.cn id=29 lang=typescript
- *
- * [29] 两数相除
+/**
+ * 29.两数相除 Medium
+ * 时间复杂度：O(log(n)), 空间复杂度：O(1)
+ * https://leetcode-cn.com/problems/divide-two-integers/
  */
 
-// @lc code=start
 function quickDivide(a: number, b: number): number {
   if (a < b) {
     return 0;
@@ -54,4 +53,3 @@ function divide(dividend: number, divisor: number): number {
 
   return -res;
 }
-// @lc code=end

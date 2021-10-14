@@ -1,10 +1,9 @@
-/*
- * @lc app=leetcode.cn id=1 lang=typescript
- *
- * [1] 两数之和
+/**
+ * 1.两数之和 Easy
+ * 时间复杂度：O(n), 空间复杂度：O(n)
+ * https://leetcode-cn.com/problems/two-sum/
  */
 
-// @lc code=start
 function twoSum(nums: number[], target: number): number[] {
   const hashMap: { [key: number]: number } = {};
   for (let i = 0; i < nums.length; i += 1) {
@@ -16,4 +15,3 @@ function twoSum(nums: number[], target: number): number[] {
   }
   return [];
 }
-// @lc code=end
