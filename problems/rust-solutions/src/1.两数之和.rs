@@ -1,8 +1,6 @@
-/**
- * 1.两数之和 [Easy]
- * Time Complexity: O(n), Space Complexity: O(n)
- * https://leetcode-cn.com/problems/two-sum/
- */
+// 1.两数之和 [Easy]
+// Time Complexity: O(n), Space Complexity: O(n)
+// https://leetcode-cn.com/problems/two-sum/
 use std::collections::HashMap;
 
 impl Solution {

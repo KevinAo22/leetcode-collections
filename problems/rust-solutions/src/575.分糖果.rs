@@ -1,8 +1,6 @@
-/**
- * 575.分糖果 [Easy]
- * Time Complexity: O(n), Space Complexity: O(n)
- * https://leetcode-cn.com/problems/distribute-candies/
- */
+// 575.分糖果 [Easy]
+// Time Complexity: O(n), Space Complexity: O(n)
+// https://leetcode-cn.com/problems/distribute-candies/
 use std::collections::HashSet;
 
 impl Solution {

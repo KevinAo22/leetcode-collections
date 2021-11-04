@@ -1,8 +1,6 @@
-/**
- * 2.两数相加 [Medium]
- * Time Complexity: O(n), Space Complexity: O(1)
- * https://leetcode-cn.com/problems/add-two-numbers/
- */
+// 2.两数相加 [Medium]
+// Time Complexity: O(n), Space Complexity: O(1)
+// https://leetcode-cn.com/problems/add-two-numbers/
 
 // Definition for singly-linked list.
 #[derive(PartialEq, Eq, Clone, Debug)]

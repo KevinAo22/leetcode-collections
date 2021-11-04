@@ -1,8 +1,6 @@
-/**
- * 66.加一 [Easy]
- * Time Complexity: O(n^2), Space Complexity: O(1)
- * https://leetcode-cn.com/problems/plus-one/
- */
+// 66.加一 [Easy]
+// Time Complexity: O(n^2), Space Complexity: O(1)
+// https://leetcode-cn.com/problems/plus-one/
 
 impl Solution {
   pub fn plus_one(digits: Vec<i32>) -> Vec<i32> {
