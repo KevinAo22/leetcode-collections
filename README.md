@@ -15,3 +15,11 @@
 ## Shell
 
 ## Concurrency
+
+## Solved Problem
+
+| Number | Title                                                                                                    | Difficulty | Swift                                                  | Rust                                                | TypeScript                                                    |
+| ------ | -------------------------------------------------------------------------------------------------------- | ---------- | ------------------------------------------------------ | --------------------------------------------------- | ------------------------------------------------------------- |
+| 3      | [无重复字符的最长子串](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/) | Medium     | [Swift](./problems/Swift/3.无重复字符的最长子串.swift) |                                                     | [TypeScript](./problems/TypeScript/3.无重复字符的最长子串.ts) |
+| 2      | [两数相加](https://leetcode-cn.com/problems/add-two-numbers/)                                            | Medium     | [Swift](./problems/Swift/2.两数相加.swift)             | [Rust](./problems/rust-solutions/src/2.两数相加.rs) | [TypeScript](./problems/TypeScript/2.两数相加.ts)             |
+| 1      | [两数之和](https://leetcode-cn.com/problems/two-sum/)                                                    | Easy       | [Swift](./problems/Swift/1.两数之和.swift)             | [Rust](./problems/rust-solutions/src/1.两数之和.rs) | [TypeScript](./problems/TypeScript/1.两数之和.ts)             |
