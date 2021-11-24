@@ -1,6 +1,7 @@
 // 495.提莫攻击 [Easy]
 // Time Complexity: O(n), Space Complexity: O(n)
-// hhttps://leetcode-cn.com/problems/teemo-attacking/
+// https://leetcode-cn.com/problems/teemo-attacking/
+
 impl Solution {
   pub fn find_poisoned_duration(time_series: Vec<i32>, duration: i32) -> i32 {
     let mut res = 0;
